@@ -1,26 +1,26 @@
-##Input And Output
-<br>
-Enter the no of productions:
-5
-Enter productions:
-s=AbCd
-A=Cf
-A=a
-C=gE
-E=h
-Enter the element whose first & follow is to be found:S
-First(S)={}
-Follow(S)={}
-Continue(0/1)?1
-Enter the element whose first & follow is to be found:A
-First(A)={ga}
-Follow(A)={b}
-Continue(0/1)?1
-Enter the element whose first & follow is to be found:C
-First(C)={g}
-Follow(C)={df}
-Continue(0/1)?1
-Enter the element whose first & follow is to be found:E
-First(E)={h}
-Follow(E)={df}
-Continue(0/1)?0
+## Input And Output <br>
+
+Enter the no of productions: <br>
+5 <br>
+Enter productions: <br>
+s=AbCd <br>
+A=Cf <br>
+A=a <br>
+C=gE <br>
+E=h <br>
+Enter the element whose first & follow is to be found:S <br>
+First(S)={} <br>
+Follow(S)={} <br>
+Continue(0/1)?1 <br>
+Enter the element whose first & follow is to be found:A <br>
+First(A)={ga} <br>
+Follow(A)={b} <br>
+Continue(0/1)?1 <br>
+Enter the element whose first & follow is to be found:C <br>
+First(C)={g} <br>
+Follow(C)={df} <br>
+Continue(0/1)?1 <br>
+Enter the element whose first & follow is to be found:E <br>
+First(E)={h} <br>
+Follow(E)={df} <br>
+Continue(0/1)?0 <br>
