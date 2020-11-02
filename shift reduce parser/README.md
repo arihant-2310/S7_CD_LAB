@@ -27,5 +27,5 @@ ________                ____________            ____________<br>
  </pre>
 
 
-## if you get any error like <i>undefined reference to strcmpi</i>
+## if you get any error like <i>undefined reference to stricmp</i>
 ### solution : stricmp is Windows-specific. If you're not on Windows, strcasecmp.
