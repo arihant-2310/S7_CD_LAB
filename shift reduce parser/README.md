@@ -1,4 +1,4 @@
-                 SHIFT REDUCE PARSER <br>
+                 SHIFT REDUCE PARSER 
 
  GRAMMER<br>
 
@@ -7,7 +7,8 @@
  E->a<br>
  enter the input symbol:        a+a+a <br>
 
-         stack implementation table<br>
+         stack implementation table
+ <pre>
  stack           input symbol            action <br>
 ________                ____________            ____________<br>
 
@@ -23,3 +24,4 @@ ________                ____________            ____________<br>
  $E+E                $                  E->a<br>
  $E                  $                  E->E+E<br>
  $E                  $                  ACCEPT<br>
+ </pre>
