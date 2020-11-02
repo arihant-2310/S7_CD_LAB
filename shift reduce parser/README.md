@@ -25,3 +25,7 @@ ________                ____________            ____________<br>
  $E                  $                  E->E+E<br>
  $E                  $                  ACCEPT<br>
  </pre>
+
+
+##if you get any error like <i>undefined reference to strcmpi</i>
+###solution : stricmp is Windows-specific. If you're not on Windows, strcasecmp.
