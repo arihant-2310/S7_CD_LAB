@@ -1,0 +1,4 @@
+int a=1,b;
+char str[20] = "hello";
+a = a + 2;
+printf("World");
